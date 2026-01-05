@@ -22,6 +22,9 @@
 
 # Because all files have Mtransitoria_633806_* as a pre-fix, we are able to extract the genotype from the specific files' names (Mtransitoria_633806_e10, Mtransitoria_633806_a, and Mtransitoria_633806_sim_e1) with the variables below.
 
+# easiest way to create the embryos_R1_paired.txt file is to go to the directory where all your fastp output went and do
+# ls -1 <full path to your output>/<your prefix common to files you want on the list>*_R1.fastq.gz > embryos_R1_paired.txt
+
 # memory and ntask asks are probably overkill so fill free to tone those down... but you'll have to change them throughout the script. sorry! 
 
 ############ LET'S BEGIN PHASE2 #############
