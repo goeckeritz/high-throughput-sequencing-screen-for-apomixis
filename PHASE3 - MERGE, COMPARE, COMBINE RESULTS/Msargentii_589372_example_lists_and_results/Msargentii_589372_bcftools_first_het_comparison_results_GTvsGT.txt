@@ -1,0 +1,63 @@
+# This file was produced by bcftools (1.19+htslib-1.19.1), the command line was:
+# 	 bcftools gtcheck  -E 0 -u GT,GT --pairs-file Msargentii_589372_comparisons.txt Msargentii_589372_merged_vcfs_het.vcf.gz
+# and the working directory was:
+# 	 /cluster/home/cgoeckeritz/mpp1-10/concordant_snps
+#
+INFO	Time required to process one record .. 0.000011 seconds
+INFO	sites-compared	4692904
+INFO	sites-skipped-no-match	0
+INFO	sites-skipped-multiallelic	0
+INFO	sites-skipped-monoallelic	0
+INFO	sites-skipped-no-data	0
+INFO	sites-skipped-GT-not-diploid	0
+INFO	sites-skipped-PL-not-diploid	0
+INFO	sites-skipped-filtering-expression	0
+INFO	sites-used-PL-vs-PL	0
+INFO	sites-used-PL-vs-GT	0
+INFO	sites-used-GT-vs-PL	0
+INFO	sites-used-GT-vs-GT	4692904
+# DCv2, discordance version 2:
+#     - Query sample
+#     - Genotyped sample
+#     - Discordance, given either as an abstract score or number of mismatches, see the options -E/-u
+#       in man page for details. Note that samples with high missingness have fewer sites compared,
+#       which results in lower overall discordance. Therefore it is advisable to use the average score
+#       per site rather than the absolute value, i.e. divide the value by the number of sites compared
+#       (smaller value = better match)
+#     - Average negative log of HWE probability at matching sites, attempts to quantify the following
+#       intuition: rare genotype matches are more informative than common genotype matches, hence two
+#       samples with similar discordance can be further stratified by the HWE score (bigger value = better
+#       match, the observed concordance was less likely to occur by chance)
+#     - Number of sites compared for this pair of samples (bigger = more informative)
+#     - Number of matching genotypes
+#DCv2	[2]Query Sample	[3]Genotyped Sample	[4]Discordance	[5]Average -log P(HWE)	[6]Number of sites compared	[6]Number of matching genotypes
+DCv2	Msargentii_589372	Msargentii_589372_a	1102	6.952834e-01	27396	26294
+DCv2	Msargentii_589372	Msargentii_589372_b	829	6.955342e-01	20551	19722
+DCv2	Msargentii_589372	Msargentii_589372_c	631	6.954083e-01	15633	15002
+DCv2	Msargentii_589372	Msargentii_589372_e11	1892	6.947350e-01	37159	35267
+DCv2	Msargentii_589372	Msargentii_589372_e12	1076	6.952330e-01	27182	26106
+DCv2	Msargentii_589372	Msargentii_589372_e13	1481	6.952194e-01	26135	24654
+DCv2	Msargentii_589372	Msargentii_589372_e14	1377	6.951400e-01	35562	34185
+DCv2	Msargentii_589372	Msargentii_589372_e15	1099	6.950949e-01	26800	25701
+DCv2	Msargentii_589372	Msargentii_589372_e16	1009	6.952023e-01	23698	22689
+DCv2	Msargentii_589372	Msargentii_589372_e17	1382	6.952139e-01	11139	9757
+DCv2	Msargentii_589372	Msargentii_589372_e18	961	6.953905e-01	22455	21494
+DCv2	Msargentii_589372	Msargentii_589372_e19	598	6.951959e-01	14121	13523
+DCv2	Msargentii_589372	Msargentii_589372_e1	274	6.951480e-01	4869	4595
+DCv2	Msargentii_589372	Msargentii_589372_e20	1369	6.949886e-01	33180	31811
+DCv2	Msargentii_589372	Msargentii_589372_e21	758	6.972778e-01	27615	26857
+DCv2	Msargentii_589372	Msargentii_589372_e22	1869	6.948832e-01	36366	34497
+DCv2	Msargentii_589372	Msargentii_589372_e23	1799	6.947861e-01	47073	45274
+DCv2	Msargentii_589372	Msargentii_589372_e2	482	6.952911e-01	10054	9572
+DCv2	Msargentii_589372	Msargentii_589372_e4	1505	6.951530e-01	27962	26457
+DCv2	Msargentii_589372	Msargentii_589372_e5	1232	6.960860e-01	35087	33855
+DCv2	Msargentii_589372	Msargentii_589372_e6	1320	6.950762e-01	30869	29549
+DCv2	Msargentii_589372	Msargentii_589372_e7	816	6.949476e-01	20708	19892
+DCv2	Msargentii_589372	Msargentii_589372_e8	1326	6.950228e-01	30906	29580
+DCv2	Msargentii_589372	Msargentii_589372_e9	1743	6.946860e-01	35218	33475
+DCv2	Msargentii_589372	Msargentii_589372_sim_e1	4	6.977571e-01	18	14
+DCv2	Msargentii_589372	Msargentii_589372_sim_e2	0	6.931472e-01	5	5
+DCv2	Msargentii_589372	Msargentii_589372_sim_e3	0	6.931472e-01	17	17
+DCv2	Msargentii_589372	Msargentii_589372_sim_e4	52	6.942220e-01	4914	4862
+DCv2	Msargentii_589372	Msargentii_589372_sim_e5	41	6.945984e-01	5015	4974
+DCv2	Msargentii_589372	Msargentii_589372_sim_e6	54	6.942698e-01	4974	4920

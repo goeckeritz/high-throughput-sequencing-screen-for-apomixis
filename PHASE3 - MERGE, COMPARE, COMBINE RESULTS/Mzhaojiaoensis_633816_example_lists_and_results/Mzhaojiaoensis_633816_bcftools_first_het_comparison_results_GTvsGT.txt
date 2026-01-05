@@ -1,0 +1,60 @@
+# This file was produced by bcftools (1.19+htslib-1.19.1), the command line was:
+# 	 bcftools gtcheck  -E 0 -u GT,GT --pairs-file Mzhaojiaoensis_633816_comparisons.txt Mzhaojiaoensis_633816_merged_vcfs_het.vcf.gz
+# and the working directory was:
+# 	 /cluster/home/cgoeckeritz/mpp1-10/concordant_snps
+#
+INFO	Time required to process one record .. 0.000011 seconds
+INFO	sites-compared	3322887
+INFO	sites-skipped-no-match	0
+INFO	sites-skipped-multiallelic	0
+INFO	sites-skipped-monoallelic	0
+INFO	sites-skipped-no-data	0
+INFO	sites-skipped-GT-not-diploid	0
+INFO	sites-skipped-PL-not-diploid	0
+INFO	sites-skipped-filtering-expression	0
+INFO	sites-used-PL-vs-PL	0
+INFO	sites-used-PL-vs-GT	0
+INFO	sites-used-GT-vs-PL	0
+INFO	sites-used-GT-vs-GT	3322887
+# DCv2, discordance version 2:
+#     - Query sample
+#     - Genotyped sample
+#     - Discordance, given either as an abstract score or number of mismatches, see the options -E/-u
+#       in man page for details. Note that samples with high missingness have fewer sites compared,
+#       which results in lower overall discordance. Therefore it is advisable to use the average score
+#       per site rather than the absolute value, i.e. divide the value by the number of sites compared
+#       (smaller value = better match)
+#     - Average negative log of HWE probability at matching sites, attempts to quantify the following
+#       intuition: rare genotype matches are more informative than common genotype matches, hence two
+#       samples with similar discordance can be further stratified by the HWE score (bigger value = better
+#       match, the observed concordance was less likely to occur by chance)
+#     - Number of sites compared for this pair of samples (bigger = more informative)
+#     - Number of matching genotypes
+#DCv2	[2]Query Sample	[3]Genotyped Sample	[4]Discordance	[5]Average -log P(HWE)	[6]Number of sites compared	[6]Number of matching genotypes
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_a	1127	6.960121e-01	21233	20106
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_b	1266	6.957059e-01	28216	26950
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e10	509	6.965694e-01	14361	13852
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e11	745	6.960838e-01	17758	17013
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e13	390	6.973032e-01	10116	9726
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e16	149	6.977309e-01	5190	5041
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e17	438	6.976008e-01	11032	10594
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e18	703	6.962754e-01	16299	15596
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e19	968	6.963945e-01	13642	12674
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e20	1415	6.958930e-01	16273	14858
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e21	678	6.969120e-01	15560	14882
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e22	705	6.967510e-01	15639	14934
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e23	905	6.958920e-01	9827	8922
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e2	1572	6.955144e-01	16382	14810
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e3	479	6.971599e-01	11987	11508
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e4	1897	6.956627e-01	17766	15869
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e5	1099	6.960916e-01	11088	9989
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e6	1179	6.956749e-01	12858	11679
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e7	690	6.969535e-01	16294	15604
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e8	976	6.954775e-01	10102	9126
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_e9	331	6.975365e-01	8090	7759
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_sim_e1	1	6.942689e-01	106	105
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_sim_e2	3	6.931472e-01	106	103
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_sim_e3	1	6.949825e-01	96	95
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_sim_e4	160	6.940493e-01	10692	10532
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_sim_e5	184	6.942818e-01	10691	10507
+DCv2	Mzhaojiaoensis_633816	Mzhaojiaoensis_633816_sim_e6	180	6.942319e-01	10701	10521
